@@ -10,14 +10,50 @@ body {
 }
 
 p {
-    font-weight: 200;
+    margin-bottom: 15px;
+    font-weight: 100;
     font-size: 18px;
     color: #262626;
     line-height: 1.66667;
     text-align: justify;
-    width: 70%;
+    width: 65%;
+    
 }
 
+span {
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+}
+
+p a {
+    color: #006598;
+}
+
+p a:hover {
+    color: #980000;
+}
+
+p.italic {
+    font-style: italic;
+}
+
+h2 {
+    margin: 30px 0px;
+    font-size: 32px;
+    line-height: 1.25;
+    font-weight: 300;
+}
+figure {
+    margin: 0px;
+}
+
+figcaption {
+    width: 65%;
+    color: #595959;
+}
 nav {
     position: fixed;
     top: 0;
@@ -39,11 +75,19 @@ ul {
 }
 
 .nav-bar a {
-    color: #fff;
     text-decoration: none;
+    color: #fefefe;
     font-size: 14px;
     padding: 0 10px;
+    vertical-align: middle;
 }
+
+.biggersize {
+    font-weight: 800;
+    font-size: 18px;
+
+}
+
 
 .main-header h1 {
     padding-top: 20px;
@@ -57,5 +101,25 @@ ul {
 .main-header > a {
     right: 80px;
 }
+
+.profile-image {
+    float: left;
+    border-radius: 50%;
+    width: 60px;
+    padding: 5px;
+    margin: 0px;
+}
+
+.katie-hunt {
+    color: #737373;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.date-time {
+    color: #737373;
+    font-weight: 400;
+}
+
 
 
