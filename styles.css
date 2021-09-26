@@ -1,4 +1,6 @@
 body {
+    margin-top: 50px;
+    margin-left: 130px;
     font-family: CNN,Helvetica Neue,Helvetica,Arial,Utkal,sans-serif;
     font-size: 16px;
     line-height: 1.66;
@@ -7,46 +9,52 @@ body {
     color: #262626;
 }
 
+p {
+    font-weight: 200;
+    font-size: 18px;
+    color: #262626;
+    line-height: 1.66667;
+    text-align: justify;
+    width: 70%;
+}
+
 nav {
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     background-color: #000;
+    overflow: hidden;
 }
 
 ul {
-    margin: 0;
+    margin: 0px 40px;
+    padding: 0;
 }
 
 .nav-bar li {
     display: inline;
     margin: 0px;
     list-style-type: none;
-    padding: 0;
 }
 
 .nav-bar a {
     color: #fff;
     text-decoration: none;
-    font-size: 15px;
-    padding-right: 15px;
-}
-
-main {
-    width: 70%;
-    margin: 0px auto;
+    font-size: 14px;
+    padding: 0 10px;
 }
 
 .main-header h1 {
-    position: relative;
-    right: 80px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
     font-weight: 700;
     font-size: 2.66667rem;
     line-height: 1.15;
 }
 
 .main-header > a {
-    position: relative;
     right: 80px;
 }
 
