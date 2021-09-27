@@ -96,7 +96,7 @@ ul {
 
 .nav-bar a {
     text-decoration: none;
-    color: #fefefe;
+    color: rgb(230, 230, 230);
     font-size: 14px;
     padding: 0 10px;
     vertical-align: middle;
@@ -107,6 +107,7 @@ ul {
 }
 
 .biggersize {
+    color: rgb(254, 254, 254);
     font-weight: 800;
     font-size: 18px;
 
@@ -204,9 +205,30 @@ header img {
     clear: both;
 }
 
+footer p {
+    color: rgb(230, 230, 230);
+    line-height: 1.625;
+}
+
 footer div p {
     margin: 0px;
     color:rgb(230, 230, 230);
     line-height: 1.625;
     font-size: 12px;
 }
+
+.test {
+    border-top: dotted;
+    border-bottom: dotted;
+}
+
+.test p {
+    margin: 0px;
+    display: inline-block;
+}
+
+.link-news {
+    float: right;
+}
+
+    
