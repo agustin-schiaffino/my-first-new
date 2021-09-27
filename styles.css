@@ -16,7 +16,6 @@ p {
     line-height: 1.66667;
     text-align: justify;
     width: 65%;
-    
 }
 
 span {
@@ -81,6 +80,9 @@ ul {
     vertical-align: middle;
 }
 
+.logo-mirror {
+    width: 80px;
+}
 
 .biggersize {
     font-weight: 800;
@@ -146,6 +148,14 @@ footer a{
     width: 33%;
     margin-top: 30px;
 }
+
+.f2-container {
+    display: inline;
+    float: left;
+    width: 25%;
+    margin-top: 30px ;
+}
+
 
 .footer-list {
     list-style-type: none;
