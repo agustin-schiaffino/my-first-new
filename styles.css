@@ -109,7 +109,7 @@ main {
     float: left;
     border-radius: 50%;
     width: 60px;
-    padding-right: 10px;
+    padding: 0px 10px;
     margin: 0px;
 }
 
