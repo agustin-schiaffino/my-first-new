@@ -1,6 +1,5 @@
 body {
     margin-top: 50px;
-    margin-left: 130px;
     font-family: CNN,Helvetica Neue,Helvetica,Arial,Utkal,sans-serif;
     font-size: 16px;
     line-height: 1.66;
@@ -82,12 +81,16 @@ ul {
     vertical-align: middle;
 }
 
+
 .biggersize {
     font-weight: 800;
     font-size: 18px;
 
 }
 
+main {
+    margin-left: 130px;
+} 
 
 .main-header h1 {
     padding-top: 20px;
@@ -106,20 +109,64 @@ ul {
     float: left;
     border-radius: 50%;
     width: 60px;
-    padding: 5px;
+    padding-right: 10px;
     margin: 0px;
 }
 
 .katie-hunt {
+    margin-bottom: 0px;
     color: #737373;
     font-weight: 700;
     font-size: 16px;
 }
 
 .date-time {
+    margin-top: 0px;
     color: #737373;
     font-weight: 400;
 }
 
+footer {
+    padding: 50px;
+    background-color: rgb(12, 12, 12);
+}
 
+footer a{
+    color: #fefefe;
+}
+
+.form {
+    width: 100%;
+}
+
+.input {
+    width: 100%;
+}
+
+.f-container {
+    display: inline;
+    float: left;
+    width: 33%;
+    margin-top: 30px;
+}
+
+.footer-list {
+    list-style-type: none;
+    color: rgb(230, 230, 230);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.first-item {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.logo-container {
+    text-align: center;
+    vertical-align: middle;
+    padding: 0px 5px;
+    font-size: 18px;
+    font-weight: 700;
+}
 
