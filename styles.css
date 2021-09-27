@@ -35,7 +35,7 @@ p a:hover {
     color: #980000;
 }
 
-p.italic {
+p.letter-type {
     font-style: italic;
 }
 
@@ -136,11 +136,7 @@ footer a{
     color: #fefefe;
 }
 
-.form {
-    width: 100%;
-}
-
-.input {
+.search-box {
     width: 100%;
 }
 
